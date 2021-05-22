@@ -96,6 +96,80 @@ body{
     letter-spacing: 1px;
 }
 
+/*************Section Joining *************/
+.section-join{
+    padding: 80px 0;
+    background-color:#ffe742;
+    text-align: center;
+    border:1px solid #ddc62c;
+}
+
+.section-join h2{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+
+}
+.join-para{
+    margin:40px 300px;
+    font-size: 20px;
+    color:rgb(70, 69, 69);
+}
+.join-img{
+    width:150px;
+    height:150px;
+    position: absolute;
+    left:400px;
+    top:40px;
+     margin-right:40px;
+
+
+}
+
+.join-icon{
+    position: relative; 
+    margin-left:0px;
+}
+.textbox{
+    text-align: left;
+margin-left:600px;
+}
+span{
+    
+    padding:10px;
+    font-size: 22px;
+    margin-left: 60px;
+    color:rgb(70, 69, 69);
+    display: inline-block;
+}
+input {
+    
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+/***join button***/
+
+.section-join .btn{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 16px 38px;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+    display: inline-block;
+    background-color:#ff87d4;
+    margin-left:85px;
+    border-radius: 5px;
+    margin-top:40px;
+}
 /*****************Section connect ************/
 
 
@@ -126,7 +200,7 @@ body{
 .connect-section h3{
     font-size: 22px;
     font-weight: 400;
-    color:black;
+    color:rgb(70, 69, 69);
     margin-bottom: 120px;
     
 }
