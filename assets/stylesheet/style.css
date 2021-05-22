@@ -1,5 +1,9 @@
 ul li { list-style: none;}
 
+body{
+    font-family:'Roboto', sans-serif;
+}
+
 
 .hero-section{
     text-align: center;
@@ -44,6 +48,11 @@ top:20px;}
 align-items: center;
 justify-content: space-between;}
 
+.flex-col{ 
+    display: flex;
+    flex-direction: column;
+}
+
 
 .flex-30{
     flex:0 1 30%;
@@ -61,7 +70,7 @@ justify-content: space-between;}
     display:block;
 position: absolute;
 z-index: 99;
-
+text-align: center;
 }
 
 .animation-2{ 
@@ -126,4 +135,36 @@ width:300px;}
     text-decoration: none;
     color: skyblue;
     font-size: 25px;
+}
+
+.bio-image{
+    margin-right: -90px;
+}
+
+
+.bio-item{
+    padding-right: 200px;
+    border-left:80px solid black;
+    padding-left: 20px;
+   
+
+}
+
+.bio-link a{
+    font-size: 30px;
+margin-right: 20px;
+color: grey;}
+   
+
+.bio-item h2{
+    font-size: 36px;  
+    font-weight: 800;
+    line-height: 1.3;
+  
+}
+
+.bio-item p{ 
+    font-size: 20px;
+    font-weight: 500;
+
 }
