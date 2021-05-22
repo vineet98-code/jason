@@ -41,16 +41,89 @@ top:20px;}
 
 .flex {
     display: flex ;
-    flex-flow: column;
 align-items: center;
 justify-content: space-between;}
 
+
+.flex-30{
+    flex:0 1 30%;
+}
+.width-full{ 
+    width: 100%;
+}
 .header{
     position: relative;
 }
+
+
 
 #toggle:checked ~ .nav{
     display:block;
 position: absolute;
 z-index: 99;
+
+}
+
+.animation-2{ 
+    margin-left: 100px;
+}
+
+.our-stories{ 
+    background: linear-gradient(rgba(71, 64, 64, 0.5) ,rgba(53, 39, 39, 0.5)) ,url(../media/human-revolution.gif);
+background-repeat: no-repeat;
+background-size: cover;
+height: 90vh;
+background-position: center center;
+text-align: center;
+font-size: 60px;
+color: white;
+font-family:'Roboto', sans-serif;
+padding: 20px 0;
+background-attachment: fixed;
+}
+
+.our-stories p{ font-size: 30px;
+margin-top: -74px;}
+
+.article{
+    max-width: 900px;
+    margin: 0 auto;
+}
+ 
+.article-col { 
+    border: 1px solid black;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.article img{ height: 200px;
+object-fit: contain;
+width:300px;}
+
+.article h3 , .article p, .article a{ 
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+}
+
+.article h3{
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.article p{
+    font-family:grey ;
+    font-size: 16px;
+    padding-top: 50px;
+
+}
+
+.article .btn{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 25px;
 }
